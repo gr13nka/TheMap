@@ -1,0 +1,17 @@
+# Сборка
+/target
+
+# Состояние прожитого мира — рождается при запуске TUI, у каждого своё.
+# В репозитории живут только дефолты: Deck/*.md и Tablets/*.md.
+/save.ron
+/legacy.ron
+/MAP.md
+/History.md
+/ATLAS.md
+/Atlas/
+/Chronicle/
+/Deck/graveyard/
+
+# Мусор редактора и системы
+*~
+.DS_Store

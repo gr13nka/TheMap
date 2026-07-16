@@ -1,0 +1,10 @@
+[workspace]
+resolver = "2"
+members = ["crates/core", "crates/tui"]
+
+[workspace.dependencies]
+serde = { version = "1", features = ["derive"] }
+ron = "0.8"
+rand = "0.8"
+crossterm = "0.28"
+ratatui = "0.29"
